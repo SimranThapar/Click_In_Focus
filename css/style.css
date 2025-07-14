@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+:root{--theme1: #9e2a0d; --theme2: #EBC6A4; --black:#2C3A47; --light:#F6F0EA;}
+body{color: var(--black);}
+*{font-family: "Playfair Display", serif;}
+h1,h2,h3,h4,h5,.logo{font-family: "Caprasimo", serif; } 
+.tag{font-family: "EB Garamond", serif;}
+
+.bg1{background-color: var(--theme1); color: white;}
+.bg2{background-color: var(--theme2);}
+.bg3{background-color: var(--light);}
+.fg3{color: var(--black); ;}
+.fg1{color: var(--theme1);}
+.fg2{color: var(--theme2);}
+
+.text-justify{text-align: justify;}
+a{text-decoration: none;}
+
+.banner{text-align: center;}
+#aboutbanner{background-image: url(../assets/pagetitle07.jpg); background-position: center;}
+.banner div{padding-block:90px ; background-color: rgba(235, 198, 164,0.5);}
+.banner a{color:var(--black)}
+
+#servicebanner{background-image: url(../assets/pagetitle04.jpg); background-position: center;}
+#teambanner{background-image: url(../assets/page-title.jpg); background-position: center;}
+
+#contactbanner{background-image: url(../assets/contact-01.jpg); background-position: center;}
+#contactbanner>div{padding-block:90px ; background-color: rgba(255, 255, 255, 0.85);}
+th,td{background-color: transparent !important;}
+
+#weddingbanner{background-image: url(../assets/weddingbanner=.jpg); background-position:center;}
+#pre-weddingbanner{background-image: url(../assets/preweddingbanner=.jpg); background-position:center; background-repeat: no-repeat;
+background-size: cover;} 
+#engagementbanner{background-image: url(../assets/engagementbanner=.jpg); background-position:center; background-repeat: no-repeat;
+background-size: cover;} 
+#birthdaybanner{background-image: url(../assets/birthdaybanner=.jpg); background-position:center; background-repeat: no-repeat;
+background-size: cover;} 
+#maternitybanner{background-image: url(../assets/maternitybanner.JPG); background-position:center; background-repeat: no-repeat;
+background-size: cover;} 
+#productbanner{background-image: url(../assets/productbanner=.jpg); background-position:center; background-repeat: no-repeat;
+background-size: cover;} 
+
+
